@@ -39,11 +39,11 @@ client = genai.Client(
 def generate_ai_response(prompt):
 
     models = [
-        "gemini-3.8-flash",
-        "gemini-3.7-flash",
-        "gemini-3.6-flash"
-    ]
-
+    "gemini-3.5-flash-lite",
+    "gemini-3.8-flash",
+    "gemini-3.7-flash",
+    "gemini-3.6-flash"
+]
     for model in models:
 
         print(f"Trying Gemini model: {model}")
