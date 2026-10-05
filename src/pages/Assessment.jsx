@@ -51,7 +51,7 @@ function Assessment() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/assessment",
+  "https://ai-oral-tmj-assistant-production.up.railway.app/api/assessment",
         {
           method: "POST",
           headers: {

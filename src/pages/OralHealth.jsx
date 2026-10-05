@@ -34,8 +34,7 @@ function OralHealth() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/chat",
-        {
+"https://ai-oral-tmj-assistant-production.up.railway.app/api/chat",        {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
