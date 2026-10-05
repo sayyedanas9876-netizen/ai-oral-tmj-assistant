@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
     <>
@@ -19,17 +21,17 @@ function Home() {
             guidance about oral and jaw-related symptoms.
           </p>
 
-          <a href="/assessment">
+          <Link to="/assessment">
             <button className="primary-btn">
               Start Assessment
             </button>
-          </a>
+          </Link>
 
-          <a href="/chat">
+          <Link to="/chat">
             <button className="secondary-btn">
               Ask AI Assistant
             </button>
-          </a>
+          </Link>
 
         </div>
 
